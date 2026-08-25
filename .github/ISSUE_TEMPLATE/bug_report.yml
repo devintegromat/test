@@ -1,0 +1,10 @@
+mutation {
+  createIssue(input: {
+    title: "Test issue"
+    issueTemplate: "bug_report.yml"
+  }) {
+    issue {
+      id
+    }
+  }
+}
